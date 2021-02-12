@@ -27,7 +27,7 @@ public class GUI extends javax.swing.JFrame {
     private void initComponents() {
 
         jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
+        BotonStalin = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
         jButton4 = new javax.swing.JButton();
 
@@ -35,7 +35,7 @@ public class GUI extends javax.swing.JFrame {
 
         jButton1.setText("Lider");
 
-        jButton2.setText("integrante Stalin Vicente");
+        BotonStalin.setText("integrante Stalin Vicente");
 
         jButton3.setText("Integrante 2");
 
@@ -56,7 +56,7 @@ public class GUI extends javax.swing.JFrame {
                             .addComponent(jButton3)
                             .addComponent(jButton1))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 16, Short.MAX_VALUE)
-                        .addComponent(jButton2)))
+                        .addComponent(BotonStalin)))
                 .addGap(92, 92, 92))
         );
         layout.setVerticalGroup(
@@ -65,7 +65,7 @@ public class GUI extends javax.swing.JFrame {
                 .addGap(44, 44, 44)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton1)
-                    .addComponent(jButton2))
+                    .addComponent(BotonStalin))
                 .addGap(48, 48, 48)
                 .addComponent(jButton4)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -112,8 +112,8 @@ public class GUI extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton BotonStalin;
     private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
     // End of variables declaration//GEN-END:variables
