@@ -8,6 +8,7 @@
  *
  * @author Oscar
  */
+import javax.swing.JOptionPane
 public class GUI extends javax.swing.JFrame {
 
     /**
@@ -39,7 +40,12 @@ public class GUI extends javax.swing.JFrame {
 
         jButton3.setText("Integrante 2");
 
-        jButton4.setText("Integrante 3");
+        jButton4.setText("Anthony Ch");
+        jButton4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton4ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -75,6 +81,10 @@ public class GUI extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+        JOptionPane.showMessageDialog(rootPane,"Hola pvtos xd");
+    }//GEN-LAST:event_jButton4ActionPerformed
 
     /**
      * @param args the command line arguments
